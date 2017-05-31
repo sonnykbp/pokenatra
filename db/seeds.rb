@@ -13,3 +13,6 @@ Pokemon.create(name: "Clefairy", cp: rand(800), poke_type: "fairy", img_url: "ht
 Pokemon.create(name: "Nidoking", cp: rand(800), poke_type: "poison ground", img_url: "https://img.pokemondb.net/artwork/nidoking.jpg")
 Pokemon.create(name: "Gengar", cp: rand(800), poke_type: "ghost poison", img_url: "https://img.pokemondb.net/artwork/gengar.jpg")
 Pokemon.create(name: "Blastoise", cp: rand(800), poke_type: "water", img_url: "https://img.pokemondb.net/artwork/blastoise.jpg")
+Pokemon.create(name: "Jiggytuffy", cp: rand(800), poke_type: "cute", img_url: "https://img.pokemondb.net/artwork/jigglypuff.jpg")
+Pokemon.create(name: "Rat", cp: rand(800), poke_type: "not cute", img_url: "https://img.pokemondb.net/artwork/rattata.jpg")
+Pokemon.create(name: "Lemontor", cp: rand(800), poke_type: "fruit", img_url: "https://s-media-cache-ak0.pinimg.com/236x/8a/1a/45/8a1a45e1b6a719ca780143fc1bf7e7c5.jpg")

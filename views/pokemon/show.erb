@@ -1,0 +1,17 @@
+<h2><a href="/pokemon">All Pokemon</a></h2>
+
+<div class="pokemon">
+  <p>Pokemon: <%= @pokemon.name %></p>
+  <p>Type: <%= @pokemon.poke_type %></p>
+  <p>CP: <%= @pokemon.cp %></p>
+  <img src="<%= @pokemon.img_url %>">
+</div>
+
+<div class="buttonstyle">
+  <form onsubmit="confirm('Are you sure?')"action="/pokemon/<%=@pokemon.id%>" method="post">
+    <input type="hidden" name="_method" value="DELETE">
+    <input class="button" type="submit" value="Delete Pokemon?">
+  </form>
+
+  <button onclick="location.href = '/pokemon/<%=@pokemon.id%>/edit'">Edit Pokemon?</button>
+</div>

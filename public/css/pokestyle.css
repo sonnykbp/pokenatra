@@ -1,4 +1,4 @@
-/*
+
 
 Uncomment for sick pokestyle
 
@@ -15,11 +15,19 @@ a, p, h2, h3 {
   border-radius: 100px;
 }
 
+h2 {
+  text-align: center;
+}
 
-body {
-  background-image: url(../images/pokedex.png);
-  background-attachment: fixed;
+header {
+  background-position: center;
+  background-image: url(/images/International_Pokémon_logo.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+}
+body {
+  background-color: maroon;
   font-family: "Pokemon", monospace;
   letter-spacing: .25em;
   font-size: 200%;
@@ -42,15 +50,16 @@ a:hover {
 .pokemon{
   min-width: 375px;
   background-color: rgb(255, 255, 255);
-  padding: 10px;
+  padding: 40px;
   margin: 40px;
   box-sizing: border-box;
   border: 15px inset;
-  border-radius: 100px;
+  border-radius: 70px;
   border-top-color: rgba(255, 0, 0, .5);
   border-left-color: rgba(255, 0, 0, .5);
   border-right-color: rgba(225, 225, 225, .5);
   border-bottom-color: rgba(225, 225, 225, .5);
+  text-align: center;
 }
 
 @keyframes pulse {
@@ -70,4 +79,21 @@ a:hover {
     text-shadow: 4px 4px 3px rgba(255, 0, 0, .3);
     background-color: rgba(0, 0, 0, .1);
   }
-}*/
+}
+
+.button, button {
+  background-color: blue;
+  border: none;
+  color: white;
+  font-family: open sans;
+  font-size: 30px;
+  padding: 20px;
+  display: inline;
+  margin-right: 20px;
+
+}
+
+.buttonstyle {
+  display: flex;
+  justify-content: center;
+}
